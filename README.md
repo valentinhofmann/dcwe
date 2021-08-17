@@ -61,7 +61,7 @@ DCWEs can also be trained on downstream tasks. The repository contains example c
 
 The parameters are as for training DCWEs on masked language modeling.
 
-We also provide code to train baseline models without dynamic component in `src/main_mlm_bert.py` and `src/main_sa_bert.py`.
+We also provide code to train baseline models (BERT without dynamic component) in `src/main_mlm_bert.py` and `src/main_sa_bert.py`.
 
 ## Data Preparation
 

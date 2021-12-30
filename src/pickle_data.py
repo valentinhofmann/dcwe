@@ -20,7 +20,7 @@ def main():
             dataset_split = SADataset(args.data, split=split, social_dim=args.social_dim, data_dir=args.data_dir)
         elif args.task == 'mlm':
             dataset_split = MLMDataset(args.data, split=split, social_dim=args.social_dim, data_dir=args.data_dir)
-        with open('{}/{}_{}_{}_{}.p'.format(args.data_dir, args.data, args.task, args.social_dim, split), 'wb') as f:
+        with open('{}/{}_{}_{}_{}.p'.format(args.data_dir, args.task, args.data, args.social_dim, split), 'wb') as f:
             pickle.dump(dataset_split, f)
 
 

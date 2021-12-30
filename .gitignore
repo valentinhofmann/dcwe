@@ -81,7 +81,7 @@ target/
 profile_default/
 ipython_config.py
 
-# Idea File
+# Idea file
 .idea
 
 # pyenv
